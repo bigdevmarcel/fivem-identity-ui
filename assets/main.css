@@ -1,0 +1,133 @@
+body {
+    background-image: url("https://images.alphacoders.com/986/thumb-1920-986756.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    outline: none
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.right-half {
+    background-color: #00000080;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Belanosima';
+    color: #cccccc;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.imie label {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.imie {
+    font-family: 'Caprasimo', cursive;
+    color: #cccccc;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.nazwisko label {
+    margin-top: 250px;
+}
+
+.nazwisko {
+    font-family: 'Caprasimo', cursive;
+    color: #cccccc;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.nazwisko label {
+    margin-top: 200px;
+}
+
+.uro {
+    font-family: 'Caprasimo', cursive;
+    color: #cccccc;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.height label {
+    margin-top: 110px;
+}
+
+.height input {
+    margin-bottom: 100px;
+}
+
+.height {
+    font-family: 'Caprasimo', cursive;
+    color: #cccccc;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    background-color: #00000080;
+    color: white;
+    border: 10px solid black;
+    box-sizing: border-box;
+    width: max-content;
+    height: max-content;
+}
+
+.btn {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    justify-content: center;
+    text-align: center;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #30be1d;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #318320;
+    color: white;
+}
